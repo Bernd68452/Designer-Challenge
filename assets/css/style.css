@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap');
+
+/*
+font-family: 'Roboto', sans-serif;
+*/
+
+/* Colors: #0b0c17, #ff3571, #dddddd, #3C30FF, #FFF, #000*/
+
+html {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+
+ul {
+  list-style-type: none;
+  margin-left: 1rem;
+}
+
+
+header {
+  padding-top: 1rem;
+}
+
+header > img {
+  width: 40px;
+  height: 30px;
+  position: fixed;
+
+}
+
+header > div {
+  display: inline-block;
+  padding-left: 2.5rem;
+}
+
+header p {
+  font-size: 0.7em;
+}
+
+
+#people {
+  background: url("../img/illustration1.png") no-repeat right top;
+  background-size: 60% 70%;
+  height: 100vh;
+}
+
+#people > article {
+  display: flex;
+  padding-left: 4rem;
+}
+
+.peopleimg {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  bottom: 75px;
+  right: 60px;
+  animation: fly 2.5s ease-in-out infinite;
+}
+
+.peoplecon h1 {
+  font-size: 4.3em;
+  padding-top: 35vh;
+  font-weight: bold;
+}
+
+.peoplecon p {
+  padding-top: 1.5em;
+  font-size: 1.3em;
+}
+
+.peoplecon img {
+  width: 27px;
+  height: 27px;
+}
+
+#people > p {
+  color: #ff3571;
+  padding: 4rem 0 0 4rem;
+}
+
+#picseries {
+  background: url("../img/images.jpg") no-repeat center/cover;
+  background-size: 100% 74%;
+  height: 100vh;
+}
+
+
+#every, #ready {
+
+  height: 100vh;
+  padding: 0 10rem;
+}
+
+#every > article {
+  display: flex;
+  padding-top: 30vh;
+}
+
+#every > article > aside:nth-of-type(1) {
+  width: 40%;
+}
+
+#every > article > aside:nth-of-type(2) {
+  width: 60%;
+}
+
+#every > h2 {
+  font-size: 3.5rem;
+  margin: 15vh 0;
+  width: 60%;
+}
+
+#every aside h2 {
+  font-size: 3.5rem;
+  position: relative;
+  bottom: 60px;
+  padding-right: 1rem;
+}
+
+#every aside p {
+  font-size: 1.5rem;
+}
+
+
+#ready article {
+  padding-top: 10vh;
+}
+
+#ready img {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#ready article div {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10vh;
+  margin-right: 4rem;
+}
+
+.sticking {
+  width: 35%;
+  display: flex;
+}
+
+li {
+  padding: 0.4rem 0;
+}
+
+li > p {
+  line-height: 30px;
+}
+#ready > h2 {
+  font-size: 3.5rem;
+  text-align: center;
+  padding-top: 15vh;
+}
+
+#ready > p {
+  text-align: center;
+  width: 65%;
+  margin: 0 auto;
+  font-size: 1.3rem;
+  padding: 5vh 0;
+}
+
+
+#letsgo {
+  padding: 0 3rem;
+}
+
+#letsgo article h2 {
+  color: #dddddd;
+  font-size: 5rem;
+  margin-bottom: 4rem;
+}
+
+#letsgo article {
+  height: 60vh;
+  margin: 10vh 0;
+  display: flex;
+}
+
+#letsgo article aside {
+  width: 50%;
+  padding: 0 2rem;
+}
+#letsgo article aside:nth-of-type(1) img {
+  width: 90%;
+  height: 90%;
+}
+
+
+.emoji {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.text {
+  padding-top: 1.5rem;
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+#letsgo h3 {
+  font-size: 1.6rem;
+}
+
+#letsgo article:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+
+.last {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.last > h2 {
+  color: #000;
+  font-size: 4.5rem;
+}
+
+.last p {
+  font-size: 1.5rem;
+  color: #0b0c17;
+  margin: 4rem 0;
+}
+
+.last input {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+}
+
+.last div {
+  width: 20%;
+  color: #fff;
+  background-color: #ff3571;
+  text-align: center;
+  cursor: pointer;
+  padding: 15px 0;
+  border-radius: 5px;
+  margin-bottom: 15vh;
+}
+
+.last div:hover {
+  background-image: linear-gradient(to right, #ff3571, #3c30ff);
+}
+
+
+footer {
+  margin-left: 5%;
+
+}
+
+footer p {
+  display: flex;
+  margin-bottom: 2%;
+
+}
+
+footer p::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: transparent url(../img/love.png) no-repeat;
+  background-size: contain;
+  animation: heartbeat 1s infinite;
+}
+
+
+@keyframes fly {
+    from {
+      bottom: 75px;
+    }
+    to {
+      bottom: 30px;
+    }
+}
+
+
+@keyframes heartbeat {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(2.1);
+  }
+}
