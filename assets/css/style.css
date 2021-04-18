@@ -9,6 +9,7 @@ font-family: 'Roboto', sans-serif;
 html{
   max-width: 1440px;
   margin: 0 auto;
+  scroll-behavior: smooth;
 }
 
 
