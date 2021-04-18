@@ -72,6 +72,15 @@ header p {
   animation: fly 2.5s ease-in-out infinite;
 }
 
+@keyframes fly {
+  from {
+    bottom: 75px;
+  }
+  to {
+    bottom: 30px;
+  }
+}
+
 
 .peoplecon h1 {
   font-size: 4.3em;
@@ -293,16 +302,6 @@ footer p::after {
   background: transparent url(../img/love.png) no-repeat;
   background-size: contain;
   animation: heartbeat 1s infinite;
-}
-
-
-@keyframes fly {
-  from {
-    bottom: 75px;
-  }
-  to {
-    bottom: 30px;
-  }
 }
 
 
