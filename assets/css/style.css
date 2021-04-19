@@ -6,6 +6,7 @@ font-family: 'Roboto', sans-serif;
 
 /* Colors: #0b0c17, #ff3571, #dddddd, #3C30FF, #FFF, #000*/
 
+/* body change*/
 html{
   max-width: 1440px;
   margin: 0 auto;
@@ -20,7 +21,7 @@ html{
 
 }
 
-
+/* Schrift allgemein */
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -31,7 +32,7 @@ ul {
   margin-left: 1rem;
 }
 
-
+/* header */
 header {
   padding-top: 1rem;
 }
@@ -52,7 +53,7 @@ header p {
   font-size: 0.7em;
 }
 
-
+/* Wolkenbild */
 #people {
   background: url("../img/illustration1.png") no-repeat right top;
   background-size: 60% 70%;
@@ -64,6 +65,7 @@ header p {
   padding-left: 4rem;
 }
 
+/* Flying Man */
 .peopleimg {
   width: 100%;
   height: 100%;
@@ -82,7 +84,7 @@ header p {
   }
 }
 
-
+/* How to become usw. */
 .peoplecon h1 {
   font-size: 4.3em;
   padding-top: 35vh;
@@ -105,13 +107,14 @@ header p {
   font-weight: bold;
 }
 
+/* Bilderserie, Textblock */
 #picseries {
   background: url("../img/images.jpg") no-repeat center/cover;
   background-size: 100% 74%;
   height: 100vh;
 }
 
-
+/*  Symbole */
 #every, #symbols {
 
   height: 100vh;
@@ -195,7 +198,7 @@ li > p {
   padding: 5vh 0;
 }
 
-
+/* Mittel Block "Are you ready" und 01-04 mit Emojis */
 #letsgo {
   padding: 0 3rem;
 }
@@ -228,6 +231,7 @@ li > p {
   margin-bottom: 30px;
 }
 
+/* Letzte 5 Absätze /Do you like..., Emailbox, Subscribe...., Created..., Herz */
 .scripture {
   padding-top: 1.5rem;
   font-size: 1.3rem;
