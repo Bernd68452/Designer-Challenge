@@ -37,9 +37,10 @@ header {
   padding-top: 1rem;
 }
 
+/* Elephant */
 header > img {
   width: 40px;
-  height: 30px;
+  height: 40px;
   position: fixed;
 
 }
@@ -53,7 +54,7 @@ header p {
   font-size: 0.7em;
 }
 
-/* Wolkenbild */
+/* Himmelbild unterm Flying Man*/
 #people {
   background: url("../img/illustration1.png") no-repeat right top;
   background-size: 60% 70%;
@@ -198,7 +199,7 @@ li > p {
   padding: 5vh 0;
 }
 
-/* Mittel Block "Are you ready" und 01-04 mit Emojis */
+/* Mittel Block "Are you ready, Lets go" und 01-04 mit Emojis */
 #letsgo {
   padding: 0 3rem;
 }
