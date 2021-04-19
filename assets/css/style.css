@@ -305,6 +305,9 @@ footer p::after {
   animation: heartbeat 1s infinite;
 }
 
+footer span {
+  margin-right: 0.5%;
+}
 
 @keyframes heartbeat {
   0% {
